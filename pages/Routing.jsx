@@ -7,6 +7,9 @@ import Keluarga from './Keluarga'; // Ganti dengan nama file dan komponen yang s
 import Anak from './Anak';
 import ScrollView2 from './ScrollView2';
 import Fetch from './Fetch';
+import Fetc2 from './Fetc2';
+import AmbilPrams from './AmbilPrams';
+import Componen from './componen2';
 // import HalamanLain from './HalamanLain'; // Ganti dengan nama file dan komponen yang sesuai
 
 const Stack = createNativeStackNavigator();
@@ -19,6 +22,9 @@ const Routing = () => {
         <Stack.Screen name="anak" component={Anak} options={{ title: 'Halaman anak' }} />
         <Stack.Screen name="scroll" component={ScrollView2} options={{ title: 'Scroll View' }} />
         <Stack.Screen name="fetch" component={Fetch} options={{ title: 'Fetch' }} />
+        <Stack.Screen name="fetc2" component={Fetc2} options={{ title: 'fetc2' }} />
+        <Stack.Screen name="ambilPrams" component={AmbilPrams} options={{ title: 'Ambil Prams' }} />
+        <Stack.Screen name="component" component={Componen} options={{ title: 'component' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
